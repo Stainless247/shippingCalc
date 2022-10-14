@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+ul,h1,h2,h3,h6{
+    text-align: center;
+}
+ul{
+    /* border: 2px solid black; */
+    list-style: none;
+}
+label,input{
+    /* display: table-cell; */
+    margin-bottom: 10px;
+}
+#cost{
+    border: 2px solid black;
+}
+#local{
+    border: 2px solid black;
+}

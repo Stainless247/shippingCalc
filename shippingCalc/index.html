@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>eBayShippingCalc</title>
+</head>
+<body>
+    <h1>Total Cost of Shipping to Isolo, Lagos, Nigeria</h1>
+    <ul>
+        <li>
+            <form action="" method="get">
+            <label for="cost">Cost of goods:</label>
+            <input type="text" name="cost" id="cost">
+        </li>
+        <!-- <li>Cost of goods</li> -->
+        <li>
+            <label for="local">Local shipping:</label>
+            <input type="text" name="local" id="local">
+        </form>
+        </li>
+        <button id="check" type="button" name="button" onclick="checkTotal();">Check</button>
+
+        <!-- <li>Local shipping</li> -->
+    </ul>
+    <h3>International freight cost: 30</h3>
+    <h2>Total: <span id="displayAnswer"></span></h2>
+    <h2>Naira value: <span id="nairaValue"></span></h2>
+    
+    <section>
+        <h6>Unless otherwise stated, all values are in USD</h6>
+    </section>
+<!-- I still need to find how to extract daily naira rates from external sources (I suspect APIs will come in handy) -->
+
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
